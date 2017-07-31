@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.0" method="upgrade" overwrite="true">
+    <name>Composer</name>
+    <creationDate>August 2017</creationDate>
+    <version>1.0</version>
+    <author>Jensen Technologies S.L.</author>
+    <authorEmail>info@neno-translate.com</authorEmail>
+    <authorUrl>http://www.neno-translate.com</authorUrl>
+    <copyright>Copyright (C) 2017 Jensen Technologies S.L. All rights reserved.</copyright>
+    <description></description>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <packagename>composer</packagename>
+    <files folder="packages">
+        <file type="plugin"
+              id="composer"
+              group="system">plg_system_composer.zip
+        </file>
+    </files>
+</extension>
