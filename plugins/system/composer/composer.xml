@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>plg_system_composer</name>
+    <author>Jensen Technologies S.L.</author>
+    <creationDate>August 2017</creationDate>
+    <copyright>Copyright (C) 2005 - 2017 Jensen Technologies S.L.. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>info@jensen.technology</authorEmail>
+    <authorUrl>jensen.technology</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_COMPOSER_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="composer">composer.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_composer.ini</language>
+        <language tag="en-GB">en-GB.plg_system_composer.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="vendor" type="text" label="PLG_COMPOSER_FIELD_VENDOR_LABEL"
+                       description="PLG_COMPOSER_FIELD_VENDOR_DESC" default="vendor"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
